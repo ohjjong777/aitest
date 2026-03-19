@@ -72,19 +72,19 @@ print("샘플 데이터 생성 중...")
 
 # 삼성카드 샘플
 samsung_data = generate_sample_data('삼성카드', 120)
-samsung_data.to_excel('/home/claude/card-expense-manager/uploads/샘플_삼성카드.xlsx', index=False)
+samsung_data.to_excel('/home/claude/aitest/card-expense-manager/uploads/샘플_삼성카드.xlsx', index=False)
 print("✅ 삼성카드 샘플 데이터 생성 완료")
 
 # 현대카드 샘플
 hyundai_data = generate_sample_data('현대카드', 80)
 hyundai_data.columns = ['이용일', '가맹점', '이용금액', '카드명']
-hyundai_data.to_excel('/home/claude/card-expense-manager/uploads/샘플_현대카드.xlsx', index=False)
+hyundai_data.to_excel('/home/claude/aitest/card-expense-manager/uploads/샘플_현대카드.xlsx', index=False)
 print("✅ 현대카드 샘플 데이터 생성 완료")
 
 # 신한카드 샘플
 shinhan_data = generate_sample_data('신한카드', 90)
 shinhan_data.columns = ['이용일자', '가맹점명', '이용금액', '카드명']
-shinhan_data.to_excel('/home/claude/card-expense-manager/uploads/샘플_신한카드.xlsx', index=False)
+shinhan_data.to_excel('/home/claude/aitest/card-expense-manager/uploads/샘플_신한카드.xlsx', index=False)
 print("✅ 신한카드 샘플 데이터 생성 완료")
 
 print("\n" + "="*50)
